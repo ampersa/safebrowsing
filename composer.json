@@ -1,0 +1,20 @@
+{
+    "name": "ampersa/safebrowsing",
+    "type": "library",
+    "require": {
+        "php": "^7.0",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ampersa Ltd",
+            "email": "contact@ampersa.co.uk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ampersa\\SafeBrowsing\\": "src/"
+        }
+    }
+}
