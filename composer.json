@@ -1,5 +1,6 @@
 {
     "name": "ampersa/safebrowsing",
+    "description": "Enables querying of Google's SafeBrowsing API",
     "type": "library",
     "require": {
         "php": "^7.0",
