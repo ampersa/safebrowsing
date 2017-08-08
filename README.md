@@ -26,6 +26,9 @@ $result = $safebrowsing->listed('http://ianfette.org');
 // Returns: (string) MALWARE
 ```
 
+## Testing
+To run the unit tests within this package, you will need to edit the tests/SafeBrowsingTest.php file and enter a functional SafeBrowsing API key
+
 ## Contributing
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`

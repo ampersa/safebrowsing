@@ -1,6 +1,6 @@
 <?php
 
-namespace Ampersa\Safebrowsing;
+namespace Ampersa\SafeBrowsing;
 
 use Exception;
 use GuzzleHttp\Client as HttpClient;

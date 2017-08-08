@@ -4,7 +4,7 @@ use Ampersa\SafeBrowsing\SafeBrowsing;
 
 class SafeBrowsingTest extends PHPUnit_Framework_TestCase
 {
-    protected $apiKey = 'AIzaSyApJRWzpYwsQaFM3_PQakTL4Y3kUBwDis0';
+    protected $apiKey = 'INSERT_API_KEY';
 
     public function testDirtyDomainReturnsTrue()
     {
