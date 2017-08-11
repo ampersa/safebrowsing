@@ -2,6 +2,7 @@
 
 namespace Ampersa\SafeBrowsing;
 
+use StdClass;
 use Exception;
 use GuzzleHttp\Client as HttpClient;
 
@@ -108,7 +109,7 @@ class SafeBrowsing
                 'json' => $safebrowsingPayload
             ]);
         } catch (Exception $e) {
-            return json_decode([]);
+            return new StdClass;
         }
 
         // Retrieve and decode the result from the response
