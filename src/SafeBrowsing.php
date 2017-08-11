@@ -103,9 +103,13 @@ class SafeBrowsing
         ];
 
         // Prepare the request and get the response
-        $response = (new HttpClient)->post($safebrowsingUrl, [
-            'json' => $safebrowsingPayload
-        ]);
+        try {
+            $response = (new HttpClient)->post($safebrowsingUrl, [
+                'json' => $safebrowsingPayload
+            ]);
+        } catch (Exception $e) {
+            return json_decode([]);
+        }
 
         // Retrieve and decode the result from the response
         $result = json_decode((string) $response->getBody());
