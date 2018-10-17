@@ -39,7 +39,7 @@ class SafeBrowsing
     public function listed(string $url, $returnType = false)
     {
         if (empty($this->apiKey)) {
-            throw new Exception('A Google Safebrowsing has not been specified');
+            throw new Exception('A Google Safebrowsing API key has not been specified');
         }
 
         // Retrieve the result from SafeBrowsing
