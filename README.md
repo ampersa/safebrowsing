@@ -22,7 +22,7 @@ $result = $safebrowsing->listed('http://ianfette.org');
 The listed() function accepts a second boolen argument, which when `true` returns the threat type as reported by SafeBrowsing
 ```php
 $safebrowsing = new SafeBrowsing(API_KEY);
-$result = $safebrowsing->listed('http://ianfette.org');
+$result = $safebrowsing->listed('http://ianfette.org', true);
 // Returns: (string) MALWARE
 ```
 
