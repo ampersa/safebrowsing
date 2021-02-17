@@ -3,7 +3,7 @@
     "description": "Enables querying of Google's SafeBrowsing API",
     "type": "library",
     "require": {
-        "php": "^7.0",
+        "php": "^7.0 | ^8.0",
         "guzzlehttp/guzzle": "^6.2"
     },
     "license": "MIT",
